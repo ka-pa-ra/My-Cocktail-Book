@@ -3,17 +3,25 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 body {
   font-family: Lato;
+  background-color: rgba(0, 0, 0, 0.9); 
+  color: white;
+  text-shadow: 2px 2px #000;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+body p{
+    font-size: 1rem;
 }
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: Catamaran;
-  font-weight: 800 !important;
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200 !important;
+  text-shadow: 2px 2px #000;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
 }
 .btn-xl {
   text-transform: uppercase;
@@ -61,11 +69,9 @@ header.masthead .masthead-content {
   position: relative;
 }
 header.masthead .masthead-content .masthead-heading {
-  font-size: 4rem;
+  font-size: 0.1rem;
 }
-header.masthead .masthead-content .masthead-subheading {
-  font-size: 2rem;
-}
+
 header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
