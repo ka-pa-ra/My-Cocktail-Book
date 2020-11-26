@@ -20,7 +20,7 @@ h2{
   font-family: 'Oswald', sans-serif;
   font-weight: 200 !important;
   text-shadow: 2px 2px #000;
-  font-size: 1.2rem;
+  font-size: 1rem;
   letter-spacing: 0.1rem;
 }
 .btn-xl {
@@ -69,49 +69,17 @@ header.masthead .masthead-content {
   position: relative;
 }
 header.masthead .masthead-content .masthead-heading {
-  font-size: 0.1rem;
+  font-size: 2rem;
 }
 
-header.masthead .bg-circle {
-  z-index: 0;
-  position: absolute;
-  border-radius: 100%;
-  background:#01010a;
-}
-header.masthead .bg-circle-1 {
-  height: 90rem;
-  width: 90rem;
-  bottom: -55rem;
-  left: -55rem;
-}
-header.masthead .bg-circle-2 {
-  height: 50rem;
-  width: 50rem;
-  top: -25rem;
-  right: -25rem;
-}
-header.masthead .bg-circle-3 {
-  height: 20rem;
-  width: 20rem;
-  bottom: -10rem;
-  right: 5%;
-}
-header.masthead .bg-circle-4 {
-  height: 30rem;
-  width: 30rem;
-  top: -5rem;
-  right: 35%;
-}
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(10rem + 55px);
     padding-bottom: 10rem;
+    position: relative;
   }
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
-  }
-  header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
   }
 }
 .bg-primary {
