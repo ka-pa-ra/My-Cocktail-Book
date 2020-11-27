@@ -8,7 +8,6 @@ body {
   font-family: Lato;
   background-color: rgba(0, 0, 0, 0.9); 
   color: white;
-  text-shadow: 2px 2px #000;
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
 }
@@ -19,7 +18,6 @@ h1,
 h2{
   font-family: 'Oswald', sans-serif;
   font-weight: 200 !important;
-  text-shadow: 2px 2px #000;
   font-size: 1rem;
   letter-spacing: 0.1rem;
 }
@@ -86,14 +84,18 @@ header.masthead .masthead-content .masthead-heading {
   background-color: #ee0979 !important;
 }
 .btn-primary {
-  background-color: #ee0979;
-  border-color: #ee0979;
+    background-color: tomato;
+    color: white;
+    margin: 10 auto;
+    border-radius: 23px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
 }
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-  background-color: #bd0760 !important;
-  border-color: #bd0760 !important;
+    background-color: white;
+    color: tomato;;
 }
 .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
@@ -111,40 +113,45 @@ header.masthead .masthead-content .masthead-heading {
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
 }
-/*---- register/login ----*/
+
+
+/* ----------------------------------------------- LOGIN/REGISTER--- */
 h3 {
   font-size: 30px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 300;
-  padding-top: 10px;
+  padding-top: 100px;
   word-spacing: 3px;
   text-transform: uppercase;
-  color: black;
+  color: white;
 }
 
 p .center .align .no-account{
-    color: black;
+    color: white;
 }
 
 .card-panel{
-    border-radius: 25px;
+    border-radius: 80px;
+    margin: 0%;
+    position: relative;
 }
 
 .input-field #username,
 div.input-field.col.s12 #password{
-    font-family: 'Varela Round';
+    font-family: 'Oswald', sans-serif;
 }
 
 .flashes h4{
-    background-color: white;
-    color: crimson;
-    font-family: "Varela Round", sans-serif;
+    background-color:tomato;
+    color: white;
+    font-family: 'Oswald', sans-serif;
     margin-bottom: 0px;
 }
 
 .input-field.col .prefix ~ label{
     color: black;
-    font-family: "Varela Round", sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
 }
 
 .deep-orange-text.text-darken-4{
@@ -156,16 +163,16 @@ p.center.align{
 }
 
 button.btn-small{
-    background-color: #ffa083;
+    background-color: tomato;
     color: white;
     margin: 0 auto;
     display: flex;
     border-radius: 23px;
-    font-family: "Varela Round", sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 600;
 }
 
 button.btn-small:hover{
     background-color: white;
-    color: #ffa083;
+    color: tomato;
 }
