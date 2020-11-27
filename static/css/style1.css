@@ -111,3 +111,61 @@ header.masthead .masthead-content .masthead-heading {
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
 }
+/*---- register/login ----*/
+h3 {
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  padding-top: 10px;
+  word-spacing: 3px;
+  text-transform: uppercase;
+  color: black;
+}
+
+p .center .align .no-account{
+    color: black;
+}
+
+.card-panel{
+    border-radius: 25px;
+}
+
+.input-field #username,
+div.input-field.col.s12 #password{
+    font-family: 'Varela Round';
+}
+
+.flashes h4{
+    background-color: white;
+    color: crimson;
+    font-family: "Varela Round", sans-serif;
+    margin-bottom: 0px;
+}
+
+.input-field.col .prefix ~ label{
+    color: black;
+    font-family: "Varela Round", sans-serif;
+}
+
+.deep-orange-text.text-darken-4{
+    font-weight: 600;
+}
+
+p.center.align{
+    margin-top: 0px;
+}
+
+button.btn-small{
+    background-color: #ffa083;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 23px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 600;
+}
+
+button.btn-small:hover{
+    background-color: white;
+    color: #ffa083;
+}
